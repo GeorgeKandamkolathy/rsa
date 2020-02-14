@@ -109,7 +109,7 @@ def encode(input, filename = 'encrypted',keyname = 'private'):
     f. write(json.dumps({"exponent": private.exponent, "modulus": int(private.modulus), "length": int(private.length)}))
     f.close()
 
-def decode(filename, keyname):
+def decode(filename = 'encrypted.txt', keyname = 'private.pem'):
     f = open(filename, 'r')
     input = f.read()
     f.close()
