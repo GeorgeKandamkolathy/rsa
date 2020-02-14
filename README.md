@@ -12,13 +12,13 @@ Based on default python libraries
 
 ## Usage
 
-rsa.encode
+### rsa.encode
     input VAR input to be encoded
     filename STRING file location and name for encrypted output. Default to encrypted.txt in execution location
     keyname STRING file location and name for private key output. Default to private.pem in execution location
 
 
-rsa.decode
+### rsa.decode
     filename STRING file location and name of encrypted input. Default to encrypted.txt in execution location
     keyname STRING file location and name of private key input. Default to private.pem in execution location
 
